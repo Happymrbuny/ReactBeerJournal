@@ -1,5 +1,4 @@
-import BeerCard from './features/beers/BeerCard';
-import { BEERS } from './app/shared/BEERS';
+import BeersList from './features/beers/BeersList';
 import React from 'react';
 import './App.css';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
@@ -15,7 +14,7 @@ function App() {
           </NavbarBrand>
         </Container>
       </Navbar>
-      <BeerCard beer={BEERS[0]} />
+      <BeersList />
     </div>
   );
 }
