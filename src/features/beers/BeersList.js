@@ -1,8 +1,11 @@
 import { BEERS } from '../../app/shared/BEERS';
 import { Col, Row } from 'reactstrap';
 import BeerCard from './BeerCard';
+import { selectAllBeers } from './beersSlice';
 
 const BeersList = () => {
+    const beers = selectAllBeers();
+
     return (
         <Row className='ms-auto'>
             {BEERS.map((beer) => {
