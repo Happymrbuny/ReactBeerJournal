@@ -4,6 +4,6 @@ export const selectAllBeers = () => {
     return BEERS;
 }
 
-export const selectRandomBeer = () => {
-    return BEERS[Math.floor(BEERS.length * Math.random())];
+export const selectBeerById = (id) => {
+    return BEERS.find((beer) => beer.id === id);
 };
