@@ -47,11 +47,10 @@ h2 {
     max-width: 4rem;
 }
 
-.navbar-dark {
+.navbar-light {
     background-color: #901cad;
     background-image: url(./app/assets/img/jumbo_bubbles.jpg);
     background-size: 100%;
-    /*background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);*/
     margin-bottom: 2rem;
     min-height: 8rem;
 }
