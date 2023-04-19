@@ -1,21 +1,15 @@
-import { BEERS } from '../../app/shared/BEERS';
 import { Col, Row } from 'reactstrap';
 import BeerCard from './BeerCard';
 import { selectAllBeers } from './beersSlice';
 
-const BeersList = ({ setBeerId }) => {
+const BeersList = () => {
     const beers = selectAllBeers();
 
     return (
         <Row className='ms-auto'>
-            {BEERS.map((beer) => {
+            {beers.map((beer) => {
                 return (
-                    <Col
-                        md='5'
-                        className='m-4'
-                        key={beer.id}
-                        onClick={() => setBeerId(beer.id)}
-                    >
+                    <Col md='5' className='m-4' key={beer.id}>
                         <BeerCard beer={beer} />
                     </Col>
                 );

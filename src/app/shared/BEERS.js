@@ -9,7 +9,6 @@ export const BEERS = [
         id: 0,
         name: 'Bent Paddle Black Ale',
         image: BentPaddleBlackAleImg,
-        elevation: 1233,
         featured: true,
         description:
             'Brewed to be smooth, chocolatey, semi-roasted ale that bridges the islands of porter and stout.'
@@ -18,7 +17,6 @@ export const BEERS = [
         id: 1,
         name: 'Surly Furious',
         image: SurlyFuriousImg,
-        elevation: 877,
         featured: false,
         description:
             'Aggressively hopped and citrusy, but with a chewy, caramel backbone.'
@@ -27,7 +25,6 @@ export const BEERS = [
         id: 2,
         name: 'Sierra Nevada Pale Ale',
         image: SierraNevadaPaleAleImg,
-        elevation: 2901,
         featured: false,
         description:
             'Bold and complex with pine and citrus notes from whole-cone Cascade hops.'
@@ -36,7 +33,6 @@ export const BEERS = [
         id: 3,
         name: 'Summit EPA',
         image: SummitEPAImg,
-        elevation: 42,
         featured: false,
         description:
             'Caramel and biscuit malts balanced with a juicy citrus hop bite.'
