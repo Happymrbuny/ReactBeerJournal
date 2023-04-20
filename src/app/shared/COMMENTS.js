@@ -1,79 +1,79 @@
 export const COMMENTS = [
     {
         id: 0,
-        campsiteId: 0,
+        beerId: 0,
         rating: 5,
-        text: 'The grass was indeed greener here than our last campsite.',
-        author: 'Simon Hunt',
-        date: '2018-10-25T16:30Z'
+        text: 'This beer is so good!',
+        author: 'Aaron',
+        date: '2014-10-25T16:30Z'
     },
     {
         id: 1,
-        campsiteId: 0,
-        rating: 3,
-        text: 'This lone monkey kept following us back to our tent.',
-        author: 'Zandra Katherine',
-        date: '2017-06-17T03:33Z'
+        beerId: 0,
+        rating: 5,
+        text: 'This beer gets better every time I have it.',
+        author: 'Aaron',
+        date: '2016-06-17T03:33Z'
     },
     {
         id: 2,
-        campsiteId: 0,
-        rating: 4,
-        text: 'Do not feed the wildlife. They will follow you back to the tent.',
+        beerId: 0,
+        rating: 5,
+        text: 'This might be my favorite of all time.',
         author: 'Amy Keophilavong',
-        date: '2019-02-18T18:12Z'
+        date: '2018-02-18T18:12Z'
     },
     {
         id: 3,
-        campsiteId: 0,
-        rating: 3,
-        text: "Avoid Sundays; couldn't relax and play my flute with all the noisy kids.",
-        author: 'Jean Luc',
+        beerId: 0,
+        rating: 5,
+        text: "Got this beer from the brewery on the way up to the North Shore.  Even better when it comes straight from the source!",
+        author: 'Aaron',
         date: '2019-08-04T20:11Z'
     },
     {
         id: 4,
-        campsiteId: 0,
+        beerId: 0,
         rating: 5,
-        text: "This has been our favorite campsite for over 7 years. It is an absolutely beautiful site. The hosts are very friendly and helpful. Don't forget to try out the lake.",
-        author: 'R. E. Osariemen',
-        date: '2018-07-23T19:44Z'
+        text: "Can't say enough about how much I like this beer.",
+        author: 'Aaron',
+        date: '2020-07-23T19:44Z'
     },
     {
         id: 5,
-        campsiteId: 1,
-        rating: 4,
-        text: "There's nothing more fun than setting up a tent in a rainstorm.",
-        author: 'Juan Cortez',
+        beerId: 1,
+        rating: 3,
+        text: "Got a 'tall-boy' at the Zombie Pub Crawl.  It was really bitter and stronger than I expected.",
+        author: 'Aaron',
         date: '2017-06-17T03:33Z'
     },
     {
         id: 6,
-        campsiteId: 1,
+        beerId: 1,
         rating: 5,
-        text: 'I caught a world-record-breaking trout here on my last visit.',
-        author: 'McKenzie Sebastian',
+        text: 'Visted the Surly brewerey today and had a pint of Furious.  It was a lot better than I remembered it being.',
+        author: 'Aaron',
         date: '2019-02-18T18:12Z'
     },
     {
         id: 7,
-        campsiteId: 1,
-        rating: 5,
-        text: 'The campground was beautiful, but the bugs could bite sometimes.',
-        author: 'Brennen Ech',
+        beerId: 1,
+        rating: 3,
+        text: 'Got a six pack of Surly Furious last night and drank the whole thing.  It tasted good at the time, but boy am I sad about it this morning.  This beer is deceptively drinkable for such a high ABV. Watch out!',
+        author: 'Aaron',
         date: '2019-08-04T20:11Z'
     },
     {
         id: 8,
-        campsiteId: 1,
+        beerId: 1,
         rating: 4,
-        text: "Love the river but I didn't catch any fish.",
-        author: 'Amy Keophilavong',
+        text: "Gets the job done, and tastes pretty good too.  Really hoppy.",
+        author: 'Aaron',
         date: '2018-07-23T19:44Z'
     },
     {
         id: 9,
-        campsiteId: 1,
+        beerId: 1,
         rating: 5,
         text: 'A wonderful place to reconnect with nature.',
         author: 'Jordan Runn',
@@ -81,15 +81,15 @@ export const COMMENTS = [
     },
     {
         id: 10,
-        campsiteId: 2,
+        beerId: 2,
         rating: 5,
-        text: 'The Frozen Tundra is great place for family and friends camping!',
-        author: 'Olaf the Snowman',
+        text: 'I think this is a solid beer.  Hoppy, easy to drink, reasonable ABV.  Ruby doesn\'t like it though.',
+        author: 'Aaron',
         date: '2019-02-18T18:12Z'
     },
     {
         id: 11,
-        campsiteId: 2,
+        beerId: 2,
         rating: 1,
         text: 'We had to leave about 2am to go back to the city because the quiet was just too much!',
         author: 'Vincent and Mona Lisa Gambini',
@@ -97,7 +97,7 @@ export const COMMENTS = [
     },
     {
         id: 12,
-        campsiteId: 2,
+        beerId: 2,
         rating: 5,
         text: 'The stars at night were a revelation!',
         author: 'Ann Dabramov',
@@ -105,7 +105,7 @@ export const COMMENTS = [
     },
     {
         id: 13,
-        campsiteId: 2,
+        beerId: 2,
         rating: 4,
         text: 'Great scenic hiking trails but it was challenging to go up the mountain.',
         author: 'Amy Keophilavong',
@@ -113,7 +113,7 @@ export const COMMENTS = [
     },
     {
         id: 14,
-        campsiteId: 2,
+        beerId: 2,
         rating: 5,
         text: 'Perfect scenery for a smoked kipper breakfast with friends!',
         author: 'Dave Lister',
@@ -121,7 +121,7 @@ export const COMMENTS = [
     },
     {
         id: 15,
-        campsiteId: 3,
+        beerId: 3,
         rating: 4,
         text: 'Just remember a bear can run and climb faster than you...',
         author: 'Markell Richards',
@@ -129,7 +129,7 @@ export const COMMENTS = [
     },
     {
         id: 16,
-        campsiteId: 3,
+        beerId: 3,
         rating: 5,
         text: 'Excellent site to recharge from the city.',
         author: 'Amy Keophilavong',
@@ -137,7 +137,7 @@ export const COMMENTS = [
     },
     {
         id: 17,
-        campsiteId: 3,
+        beerId: 3,
         rating: 5,
         text: 'What a magnificent view!',
         author: 'Tinus Lorvaldes',
@@ -145,7 +145,7 @@ export const COMMENTS = [
     },
     {
         id: 18,
-        campsiteId: 3,
+        beerId: 3,
         rating: 4,
         text: 'The sites are huge! We felt like we were in the middle of nowhere, in a good way.',
         author: 'Chloe Haskins',
@@ -153,7 +153,7 @@ export const COMMENTS = [
     },
     {
         id: 19,
-        campsiteId: 3,
+        beerId: 3,
         rating: 5,
         text: "The photos don't do justice to the beauty of this place.",
         author: 'Minae Lee',
