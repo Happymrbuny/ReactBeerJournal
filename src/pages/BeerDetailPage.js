@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { selectBeerById } from '../features/beers/beersSlice';
 import BeerDetail from '../features/beers/BeerDetail';
 import CommentsList from '../features/comments/CommentsList';
+import SubHeader from '../components/SubHeader';
 
 const BeerDetailPage = () => {
     const { beerId } = useParams();
@@ -10,6 +11,7 @@ const BeerDetailPage = () => {
 
     return (
         <Container>
+            <SubHeader current={beer.name} detail={true} />
             <Row>
                 <BeerDetail beer={beer} />
                 <CommentsList beerId={beerId} />
