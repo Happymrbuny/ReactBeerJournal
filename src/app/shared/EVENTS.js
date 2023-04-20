@@ -1,9 +1,9 @@
 import bootStrapLogo from '../assets/img/bootstrap-logo.png';
 import gitLogo from '../assets/img/git-logo.png';
 import mongoLogo from '../assets/img/mongo-logo.png';
-import nodeLogo from '../assets/img/node-logo.png';
+import hoppedUpCaribouLogo from '../assets/img/HoppedUpLogo.svg';
 
-export const PARTNERS = [
+export const EVENTS = [
     {
         id: 0,
         name: 'Bootstrap Outfitters',
@@ -30,10 +30,10 @@ export const PARTNERS = [
     },
     {
         id: 3,
-        name: 'Node Outdoor Apparel',
-        image: nodeLogo,
+        name: 'Hopped Up Caribou Beer Festival',
+        image: hoppedUpCaribouLogo,
         featured: true,
         description:
-            'From polar fleeces to swimsuits, hiking boots to waders, a visit to Node will be sure to get you covered.'
+            'Hopped Up Beer Festival is already the furthest north beer festival in Minnesota, but this year, it may also be one of the funkiest. Held July 14th through 16th at Caribou Highlands Lodge, this year’s festival will feature concerts on Friday and Saturday nights and all day Saturday.'
     }
 ];

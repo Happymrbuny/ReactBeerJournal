@@ -5,8 +5,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import BeersDirectoryPage from './pages/BeersDirectoryPage';
 import BeerDetailPage from './pages/BeerDetailPage';
+import AboutPage from './pages/AboutPage';
 import './App.css';
-
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='contact' element={<ContactPage />} />
         <Route path='directory' element={<BeersDirectoryPage />} />
+        <Route path='about' element={<AboutPage />} />
         <Route
           path='directory/:beerId'
           element={<BeerDetailPage />}

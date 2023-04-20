@@ -75,8 +75,8 @@ export const COMMENTS = [
         id: 9,
         beerId: 1,
         rating: 5,
-        text: 'A wonderful place to reconnect with nature.',
-        author: 'Jordan Runn',
+        text: 'A wonderful beer.',
+        author: 'Aaron',
         date: '2019-08-04T20:11Z'
     },
     {
@@ -91,72 +91,72 @@ export const COMMENTS = [
         id: 11,
         beerId: 2,
         rating: 1,
-        text: 'We had to leave about 2am to go back to the city because the quiet was just too much!',
-        author: 'Vincent and Mona Lisa Gambini',
+        text: 'We had to leave about 2am to go back to the city because the beer was just too much!',
+        author: 'Aaron',
         date: '2018-10-25T16:30Z'
     },
     {
         id: 12,
         beerId: 2,
         rating: 5,
-        text: 'The stars at night were a revelation!',
-        author: 'Ann Dabramov',
+        text: 'The beers at night were a revelation!',
+        author: 'Aaron',
         date: '2018-07-23T19:44Z'
     },
     {
         id: 13,
         beerId: 2,
         rating: 4,
-        text: 'Great scenic hiking trails but it was challenging to go up the mountain.',
-        author: 'Amy Keophilavong',
+        text: 'Great beer.',
+        author: 'Aaron',
         date: '2018-10-25T16:30Z'
     },
     {
         id: 14,
         beerId: 2,
         rating: 5,
-        text: 'Perfect scenery for a smoked kipper breakfast with friends!',
-        author: 'Dave Lister',
+        text: 'Perfect beer for breakfast with friends!',
+        author: 'Aaron',
         date: '2019-08-04T20:11Z'
     },
     {
         id: 15,
         beerId: 3,
         rating: 4,
-        text: 'Just remember a bear can run and climb faster than you...',
-        author: 'Markell Richards',
+        text: 'Just remember a beer.',
+        author: 'Aaron',
         date: '2017-06-17T03:33Z'
     },
     {
         id: 16,
         beerId: 3,
         rating: 5,
-        text: 'Excellent site to recharge from the city.',
-        author: 'Amy Keophilavong',
+        text: 'Excellent beer to recharge.',
+        author: 'Aaron',
         date: '2018-07-23T19:44Z'
     },
     {
         id: 17,
         beerId: 3,
         rating: 5,
-        text: 'What a magnificent view!',
-        author: 'Tinus Lorvaldes',
+        text: 'What a magnificent beer!',
+        author: 'Aaron',
         date: '2018-10-25T16:30Z'
     },
     {
         id: 18,
         beerId: 3,
         rating: 4,
-        text: 'The sites are huge! We felt like we were in the middle of nowhere, in a good way.',
-        author: 'Chloe Haskins',
+        text: 'The beers are huge!',
+        author: 'Aaron',
         date: '2017-06-17T03:33Z'
     },
     {
         id: 19,
         beerId: 3,
         rating: 5,
-        text: "The photos don't do justice to the beauty of this place.",
-        author: 'Minae Lee',
+        text: "The photos don't do justice to the beauty of this beer.",
+        author: 'Aaron',
         date: '2019-02-18T18:12Z'
     }
 ];
