@@ -12,14 +12,14 @@ const beersSlice = createSlice({
 
 export const beersReducer = beersSlice.reducer;
 
-export const selectAllBeers = () => {
-    return BEERS;
+export const selectAllBeers = (state) => {
+    return state.beers.beersArray;
 };
 
-export const selectBeerById = (id) => {
-    return BEERS.find((beer) => beer.id === parseInt(id));
+export const selectBeerById = (id) => (state) => {
+    return state.beers.beersArray.find((beer) => beer.id === parseInt(id));
 };
 
-export const selectFeaturedBeer = () => {
-    return BEERS.find((beer) => beer.featured);
+export const selectFeaturedBeer = (state) => {
+    return state.beers.beersArray.find((beer) => beer.featured);
 };

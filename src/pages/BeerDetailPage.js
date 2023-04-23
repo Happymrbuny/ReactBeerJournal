@@ -1,3 +1,4 @@
+import { useSelector } from 'react-redux';
 import { Container, Row } from 'reactstrap';
 import { useParams } from 'react-router-dom';
 import { selectBeerById } from '../features/beers/beersSlice';
@@ -7,7 +8,8 @@ import SubHeader from '../components/SubHeader';
 
 const BeerDetailPage = () => {
     const { beerId } = useParams();
-    const beer = selectBeerById(beerId);
+    const beer = useSelector(selectBeerById(beerId));
+    console.log('beer:', beer);
 
     return (
         <Container>
